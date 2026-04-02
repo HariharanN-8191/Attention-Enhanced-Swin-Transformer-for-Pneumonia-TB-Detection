@@ -1,4 +1,4 @@
-# X-ray Disease Detection using AIML
+#  X-ray Disease Detection using AIML
 
 This project focuses on detecting lung diseases such as **Pneumonia** and **Tuberculosis (TB)** from chest X-ray images using deep learning techniques.
 
@@ -7,11 +7,11 @@ This project focuses on detecting lung diseases such as **Pneumonia** and **Tube
 ##  Project Overview
 
 Early detection of lung diseases is very important in healthcare.  
-This project uses a deep learning model (Swin Transformer) to automatically classify chest X-ray images into different categories.
+This project uses a deep learning model (**Swin Transformer with attention mechanism**) to automatically classify chest X-ray images into different categories and assess disease severity.
 
 ---
 
-## Objectives
+##  Objectives
 
 - Detect Pneumonia from X-ray images  
 - Detect Tuberculosis (TB) from X-ray images  
@@ -19,6 +19,7 @@ This project uses a deep learning model (Swin Transformer) to automatically clas
   - Normal  
   - Pneumonia  
   - Tuberculosis  
+- Estimate severity of lung infection  
 
 ---
 
@@ -27,6 +28,7 @@ This project uses a deep learning model (Swin Transformer) to automatically clas
 - Python  
 - PyTorch  
 - Swin Transformer (Deep Learning Model)  
+- Attention Mechanism  
 - Kaggle Dataset  
 
 ---
@@ -34,6 +36,7 @@ This project uses a deep learning model (Swin Transformer) to automatically clas
 ##  Dataset
 
 The datasets are taken from Kaggle:
+
 - Chest X-ray (Pneumonia) dataset  
 - Tuberculosis (TB) X-ray dataset  
 
@@ -49,20 +52,34 @@ The datasets are taken from Kaggle:
 
 ---
 
-##  Output
+##  Results
 
-The model predicts whether the given X-ray image belongs to:
-- Normal  
-- Pneumonia  
-- Tuberculosis  
+- Achieved approximately **98% validation accuracy**  
+- High performance in detecting Normal, Pneumonia, and TB  
+- Improved results compared to traditional CNN models  
+
+---
+
+##  Research Contribution
+
+This project is supported by a conference paper:
+
+**Title:** Attention-Enhanced Swin Transformer for Multi-label Pneumonia and TB Detection with Severity Assessment  
+
+### Key Contributions:
+- Multi-class classification (Normal, Pneumonia, TB)  
+- Attention-based feature extraction  
+- Severity assessment of lung infection  
+- High accuracy (~98%)  
 
 ---
 
 ##  Project Files
 
 - `Swin_TB.ipynb` → Model implementation  
-- `Project PPT` → Explanation of project  
-- `Project Report (PDF)` → Detailed documentation  
+- `research_paper.pdf` → Conference paper  
+- `presentation.pptx` → Project presentation  
+- `report.pdf` → Detailed documentation  
 
 ---
 
@@ -74,7 +91,8 @@ The model predicts whether the given X-ray image belongs to:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
+- Hariharan N  
 - Final Year CSE Student  
 - AIML Enthusiast  
